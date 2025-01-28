@@ -84,9 +84,6 @@ plus.onclick = () => {
     save.click()
   };
   document.addEventListener("keydown", function (event) {
-    if (event.key == "Enter") {
-        save.click();
-    }
     if (event.key == "ArrowDown") {
         text.focus();
     }
