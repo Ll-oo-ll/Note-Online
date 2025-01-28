@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/note.css" />
+    <link rel="stylesheet" href="../css/root.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Black Cover</title>
+  </head>
+  <body>
+    <i
+      id="up"
+      class="bi bi-arrow-up-square-fill fs-1"
+      style="
+        opacity: 0;
+        color: var(--color);
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 3 !important;
+        text-shadow: 0 0 7px var(--back);
+      "
+    ></i>
+    <script>
+      //scroll
+      let up = document.getElementById("up");
+      window.onscroll = () => {
+        if (scrollY > 300) {
+          up.style.opacity = 1;
+        } else {
+          up.style.opacity = 0;
+        }
+      };
+      up.onclick = () => {
+        window.scroll(0, 0);
+      };
+    </script>
+    <header class="h1">
+      <i id="num" class="bi bi-0-circle-fill"></i>
+      <i id="cart" class="bi bi-cart-plus-fill"></i>
+      <a href="index.html"
+        ><i
+          id="up"
+          class="bi bi-arrow-left-square-fill fs-1"
+          style="
+            color: var(--color);
+            font-size: 30px;
+            position: absolute;
+            left: 10px;
+          "
+        ></i
+      ></a>
+      NOTEBOOK
+    </header>
+    <div class="row mx-auto">
+      <div class="card w-50">
+        <img class="card-img-top" src="../media/note/1.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>10</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/2.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>4</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/3.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>6</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/4.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>4</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/5.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>5</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/6.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>2</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/7.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>3</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/8.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>7</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/9.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>8</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-50">
+        <img class="card-img-top" src="../media/note/10.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>6</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/11.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>4</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/12.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>9</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/13.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>10</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/14.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>2</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/15.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>3</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/16.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>5</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/17.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>7</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/18.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>9</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/19.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>10</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-50">
+        <img class="card-img-top" src="../media/note/20.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>8</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/21.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>9</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/22.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>9</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/23.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>8</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/24.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>10</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/25.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>2</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/26.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>5</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/27.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>10</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/28.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>3</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/29.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>3</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-50">
+        <img class="card-img-top" src="../media/note/30.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>5</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/31.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>7</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img class="card-img-top" src="../media/note/32.jpg" />
+        <div class="card-body">
+          <h1 class="card-title h5 text-center">Note</h1>
+          <p class="card-text"></p>
+          <span>5</span>
+          <div class="btn">Buy Now</div>
+        </div>
+      </div>
+    </div>
+    <div class="main hideen">
+      <button id="close"><i class="bi bi-x-circle-fill"></i></button>
+      <div class="h2">
+        <h2>Note</h2>
+        <h2>Total</h2>
+      </div>
+      <main></main>
+      <div class="btns">
+        <button id="buyall">Buy All</button>
+        <button id="remove">Remove All</button>
+      </div>
+    </div>
+    <script src="../js/note.js"></script>
+    <script>
+      let root = document.documentElement;
+
+      if (localStorage.color && localStorage.back) {
+        root.style.setProperty("--color", localStorage.color);
+        root.style.setProperty("--back", localStorage.back);
+      }
+    </script>
+  </body>
+</html>

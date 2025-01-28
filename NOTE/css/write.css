@@ -1,0 +1,181 @@
+#back{
+    color: var(--color);
+    z-index: 5;
+    background: var(--back);
+    padding: 0 10px;
+    font-size: 20px;
+    border-width: 2px;
+    transition: .3s;
+}
+#back:hover{
+    color: var(--back);
+    background: var(--color);
+    border: 2px solid var(--back);
+}
+body{
+    background: var(--color) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    border: 10px solid var(--back);
+    border-top: 20px solid var(--back);
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 10px 10px -5px var(--back);
+    width: 90%;
+    min-height: 40vh;
+   
+}
+h1{
+    color: var(--back);
+    font-weight: 900 !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: h1 2s linear infinite;
+}
+@keyframes h1 {
+    0%{  letter-spacing: 2px;}
+    50%{  letter-spacing: 5px;}
+    100%{  letter-spacing: 2px;}
+}
+.circle{
+    animation: circle 1s linear;
+}
+@keyframes circle {
+    
+    0%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 0;
+        display: none;
+        transform: translateY(-300px);
+    }
+}
+h2 ,p , button , span {
+    color: var(--back) !important;
+}
+.about{position: relative;width: 70%;}
+button{
+    background: none;
+    border: none;
+    font-size: 30px !important;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    i{
+        margin: 0 10px;
+        color: rgb(4, 4, 219);
+    }
+}
+span{
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    font-weight: 300;
+}
+h2{
+    font-weight: 900 !important;
+    text-transform: uppercase;
+}
+.note{
+    display: flex;
+}
+#plus{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: var(--back) !important;
+    background: rgb(4, 4, 219);
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 40px !important;
+
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+input{
+    margin: 10px 0 !important;
+    text-align: center;
+    border-radius: 8px !important;
+    background: var(--back) !important;
+    color: var(--color) !important;
+    font-size: large;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 0 ;
+    border: 9px double var(--color) !important;
+}
+textarea , input{
+    background: var(--color);
+    outline: none;
+    border: 2px solid var(--back);
+    border-radius: 10px;
+    color: var(--back) ;
+    transition: .3s;
+    width: 80%;
+    
+}
+textarea{
+    padding-left: 20px;
+    padding-top: 10px;
+    min-height: 50px;
+   position: relative;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 80%;
+
+}
+.button{
+    color: var(--back) !important;
+}
+input:focus , textarea:focus{
+    transform: scale(1.1);
+    margin: 20px 0;
+}
+.button{
+    background: var(--back) ;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: var(--color) !important;
+    font-weight: 600 ;
+    text-transform: capitalize;
+
+}
+.button:nth-child(1){
+    background-color: rgb(212, 0, 0);
+}
+.button:nth-child(2){
+    background-color: rgb(0, 112, 0);
+}
+.trash{
+    position: absolute;
+    color: red;
+}
+#remove{
+    background: red ;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

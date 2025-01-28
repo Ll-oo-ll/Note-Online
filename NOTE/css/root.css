@@ -1,0 +1,25 @@
+:root {
+    --color: white;
+    --back: black;
+    --cur : url("../media/note.cur") !important;
+  }
+  ::selection {
+    background: var(--back);
+    color: var(--color);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: var(--cur) , auto !important; 
+    scrollbar-width: none;
+  }
+  body {
+    background: var(--color);
+  }
+  ::-webkit-scrollbar{
+    display: none;
+}

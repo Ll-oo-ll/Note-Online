@@ -1,0 +1,49 @@
+body{
+    background: var(--color) !important;
+}
+p{
+    color: var(--back);
+    font-weight: 800;
+    font-size: 60px;
+    margin-right: 20px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    background: var(--back);
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.up{
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid var(--back);
+    flex-direction: row-reverse;
+}
+td{
+    text-align: center;
+    padding: 30px 0 !important;
+    border-radius: 10px !important;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    background: var(--color);
+    border-radius: 50%;
+    animation: circle 5s  linear 2s infinite;
+}
+@keyframes circle {
+    0%{
+        transform: rotateX(0deg);
+    }
+    80%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}

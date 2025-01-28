@@ -1,0 +1,89 @@
+header{
+    background: var(--color);
+    color: var(--back);
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 30px;
+    border-bottom: 4px solid var(--back);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: var(--color) !important;
+}
+form{
+    background: var(--back);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    border: 15px double var(--color);
+}
+.box{
+    margin: 20px 0;
+    width: 90%;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+button{
+    margin: 40px 0 10px !important;
+    padding: 5px 30px;
+    text-align: center;
+    border: none;
+    background: linear-gradient( to right ,var(--color) 10%, var(--back) 10% 20%, var(--color) 20% );
+    i{
+        color: var(--back);
+    }
+}
+input{
+    padding: 5px 6px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-left: 10px double var(--back);
+    background-color: var(--color);
+    color: var(--back);
+    width: 70%;
+    
+}
+.box i{
+    border-bottom: 3px solid var(--color);
+    font-weight: 800;
+   
+}
+.box i {
+    color: var(--color);
+}
+input::placeholder{
+    color: var(--back);
+}
+p{
+    color: var(--back);
+    text-decoration: underline;
+    a{
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+}
+#back{
+    color: var(--color);
+    z-index: 5;
+    background: var(--back);
+    padding: 0 10px;
+    font-size: 20px;
+    border-width: 2px;
+    transition: .3s;
+}
+#back:hover{
+    color: var(--back);
+    background: var(--color);
+    border: 2px solid var(--back);
+}

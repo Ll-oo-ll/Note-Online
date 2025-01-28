@@ -1,0 +1,121 @@
+body{
+    background: var(--color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+   object-fit: fill;
+   box-shadow: 0 15px 10px -10px var(--back);
+
+}
+
+@media (max-width:790px) {
+    img{
+        width: 50px;
+        height: auto;
+        align-self: self-end;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: 3px solid var(--back);
+        box-shadow: none;
+        border-radius: 5px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+@media (min-width:791px) {
+    main{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 80%;
+    margin-top: 20px;
+}
+ul i {
+    color: var(--back);
+    font-size: 40px;
+    padding: 5px;
+}
+textarea{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 5px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+h1 , p{
+    color: var(--back);
+    margin: 10px 0 ;
+}
+button{
+    width: 40%;
+    border-radius: 10px;
+    padding: 5px 0 ;
+    font-size: larger;
+    border: 3px solid var(--back);
+    background: var(--color);
+    margin-bottom: 50px;
+    transition: .3s;
+    i{
+        font-size: 23px;
+        color: var(--back);
+        transition: .3s;
+    }
+}
+button:hover{
+    background: var(--back);
+    i{
+        color: var(--color) ;
+    }
+}
+#back {
+    color: var(--color);
+    z-index: 5;
+    background: var(--back);
+    padding: 0 10px;
+    font-size: 20px;
+    border-width: 2px;
+    transition: .3s;
+}
+#back:hover{
+    color: var(--back);
+    background: var(--color);
+    border: 2px solid var(--back);
+}
+.send{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    opacity: 0;
+}
+.msg i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
