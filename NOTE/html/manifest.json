@@ -1,0 +1,33 @@
+{
+    "short_name": "Note",
+    "name": "Note",
+    "description" : "creat your idea in web",
+    "satrt_url": "/",
+    "display" : "standalone" ,
+    "orientation" :"any",
+    "scope": "/",
+    "background_color" : "#f00",
+    "theme_color" : "#fff" ,
+    "icons" : [
+        {
+            "src" : "../media/note/1.jpg",
+            "size" :"72x72",
+            "type" : "image/png"
+        },
+        {
+            "src" : "../media/note/1.jpg",
+            "size" :"96x96",
+            "type" : "image/png"
+        },
+        {
+            "src" : "../media/note/1.jpg",
+            "size" :"128x128",
+            "type" : "image/png"
+        },
+        {
+            "src" : "../media/note/1.jpg",
+            "size" :"512x512",
+            "type" : "image/png"
+        }
+    ]
+}
