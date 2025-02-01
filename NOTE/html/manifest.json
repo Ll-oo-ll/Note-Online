@@ -1,8 +1,0 @@
-{  "name": "Creat your Note",
-"short_name": "Note",
-"theme_color": "#fff", 
-"background_color": "#000", 
-"display": "standalone", 
-"orientation": "any",  
-"scope": "/", 
-"start_url": "/"}
