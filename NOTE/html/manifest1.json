@@ -2,7 +2,7 @@
     "short_name": "Note",
     "name": "Note",
     "description" : "creat your idea in web",
-    "satrt_url": "/",
+    "satrt_url": "/NOTE/html/write.html",
     "display" : "standalone" ,
     "orientation" :"any",
     "scope": "/",
