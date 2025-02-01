@@ -1,0 +1,11 @@
+{
+    "short_name": "Note",
+    "name": "Note",
+    "description" : "creat your idea in web",
+    "satrt_url": "/Note-Online/NOTE/html/",
+    "display" : "standalone" ,
+    "orientation" :"any",
+    "scope": "/",
+    "background_color" : "#f00",
+    "theme_color" : "#fff" 
+}
